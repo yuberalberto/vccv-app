@@ -1,0 +1,80 @@
+.hero-section {
+    background-color: var(--lightBlue);
+    color: var(--secondaryBlue);
+    padding: 20px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    gap: 5%;
+}
+
+.hero-text {
+    flex: 1;
+    text-align: justify;
+}
+
+.hero-text h1 {
+    max-width: 100%;
+    color: var(--primaryBlue);
+}
+
+.contact-button {
+    background-color: var(--secondaryBlue);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.services-section{
+    padding-top: 10%;
+}
+
+.service-photo {
+    max-width: 100%; /* Updated for responsiveness */
+    border-radius: 30%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px; /* Reduced padding */
+    flex-wrap: wrap;
+}
+
+.service-card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Added shadow */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Updated to handle overflow */
+    flex-basis: calc(33% - 20px);
+    max-width: calc(33% - 20px);
+    min-height: 300px; /* Added minimum height */
+    display: flex; /* Flex layout for internal alignment */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Even spacing */
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+    }
+    .service-card {
+        flex-basis: calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .service-card {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}

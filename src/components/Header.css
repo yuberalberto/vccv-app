@@ -1,0 +1,36 @@
+
+.navbar-custom {
+  background-color: var(--primaryBlue);
+  z-index: 1030;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2), 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12);
+}
+
+.logo {
+  /* Add your logo styles here */
+  max-width: 80px; /* Example size */
+  height: auto;
+  width: auto;
+  margin-left: 10rem;
+}
+
+.navbar .nav-link-custom {
+  color: var(--lightBlue);
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
+.navbar .nav-link-custom:hover {
+  color: var(--secondaryBlue); /* Change color on hover */
+}
+
+.button-custom {
+  background-color: var(--secondaryBlue);
+  border-color: var(--secondaryBlue);
+  margin-left: auto; /* This ensures the button stays to the right */
+  margin-right: 200px;
+}
+
+.button-custom:hover {
+  background-color: var(--primaryBlue); /* Change background on hover */
+  border-color: var(--primaryBlue);
+}
