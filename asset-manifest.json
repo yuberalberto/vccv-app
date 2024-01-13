@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/vccv-app/static/css/main.f20e896c.css",
+    "main.js": "/vccv-app/static/js/main.e2300daa.js",
+    "static/js/787.314adb6a.chunk.js": "/vccv-app/static/js/787.314adb6a.chunk.js",
+    "static/media/servicePerson.jpeg": "/vccv-app/static/media/servicePerson.856c2c0e23373b0552b7.jpeg",
+    "static/media/interview.png": "/vccv-app/static/media/interview.c9d2c7d18f6fed79e970.png",
+    "static/media/logo_cvvc.png": "/vccv-app/static/media/logo_cvvc.201f02bc7b3831fdcab7.png",
+    "static/media/management.png": "/vccv-app/static/media/management.9791b629e6740d018c07.png",
+    "static/media/linkedin.png": "/vccv-app/static/media/linkedin.a61c0447bef621e3a8ad.png",
+    "index.html": "/vccv-app/index.html",
+    "main.f20e896c.css.map": "/vccv-app/static/css/main.f20e896c.css.map",
+    "main.e2300daa.js.map": "/vccv-app/static/js/main.e2300daa.js.map",
+    "787.314adb6a.chunk.js.map": "/vccv-app/static/js/787.314adb6a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f20e896c.css",
+    "static/js/main.e2300daa.js"
+  ]
+}
